@@ -1,0 +1,52 @@
+p:hover{
+color: hsl(0, 71%, 43%);
+    background-color: blue;
+ }
+     
+   div>a:visited{
+      color: #23ce29;
+   }
+
+ span{
+   color: #23ce29;
+ }
+
+
+li:hover{
+
+color: cadetblue;
+
+}
+
+li:not(:hover){
+color: blueviolet;
+
+}  
+
+li:nth-child(2n+1){
+
+     color: black;
+     font-weight: 300;
+     font-size:large;
+     
+}
+
+li:first-child{
+   font-size:x-large;
+}
+
+li:last-child{
+   font-size: smaller;
+   color: palevioletred;
+}
+
+ a:active{
+   color: #1ed248;
+   font-size: small;
+ }
+
+ 
+
+
+
+
