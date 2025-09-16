@@ -1,0 +1,81 @@
+section{
+    border: 10px solid rgb(207, 18, 18);
+    color: rgb(140, 110, 70);
+    height: 400px;
+                             
+}
+ 
+
+.static{
+     padding: 20px;
+     height: 100px;
+     width: 100px;
+     background-color: blue;
+color: white;
+position: static;
+top: right;
+
+}
+
+.relative{
+    height: 100px;
+    width:100px;
+    padding: 20px;
+    background-color: brown;
+     position: relative;
+     color: azure;
+     margin-top: 20px;
+     left: 200px;
+      
+
+}
+
+.absolute{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    background-color: chartreuse;
+}
+
+
+.fixed{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background-color: yellow;
+    right: 200px;
+     bottom: 300px;
+}
+
+    
+.sticky{
+position: sticky;
+height: 100px;
+width: 100px;
+padding: 20px;
+bottom: 10px;
+background-color: chocolate;
+}
+
+ .box{
+    color: blueviolet;
+    height: 100px;
+    width: 100px;
+
+ }
+
+.box{
+    color: bisque;
+    background-color: brown;
+    height: 100px;
+    width:100px ;
+    padding: 30px;
+    margin: 40px;
+}
+
+
+
