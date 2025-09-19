@@ -1,0 +1,114 @@
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.para1 {
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.para2 {
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.box1 {
+    height: auto;
+    width:auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.box2 {
+    height:  auto;
+    width: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;text-align: center;
+   background-color: rgb(193, 193, 84);
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+     
+}
+.box1 img{
+    
+     
+      position: absolute ;
+      left: 170px;
+      bottom: 310px;
+     
+
+}
+
+.box2 img{
+     position: absolute ;
+      right: 170px;
+      bottom: 310px;
+     
+}
+.form{
+    height: 400px;
+    width:auto ;
+    padding: 20px;
+    border: 1px solid black;
+    padding: 15px;
+} 
+
+ .address input{
+
+  
+    height: 100px;
+    width: 600px;
+     
+    border: 1px solid black;
+  padding: 20px;
+}
+.form button{
+    background-color: cadetblue;
+
+}
+button{
+    background-color: darkkhaki;
+}
+.button{
+    
+
+}
