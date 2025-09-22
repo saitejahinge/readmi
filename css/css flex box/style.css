@@ -1,0 +1,47 @@
+.container{
+    height: 800px;
+    width: 800px;
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 2px solid black;
+    display:flexbox ;
+    align-items: start;
+     justify-content: center;
+      
+
+
+     
+}
+.box{
+height: 100px;
+width: 100px;
+color: brown;
+background-color: burlywood;
+margin:10px ;
+justify-content:   center;
+
+
+
+}
+.box:hover{
+    color: rgb(54, 24, 184);
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:active{
+    color: chartreuse;
+    background-color: rgb(228, 12, 12);
+
+}
+.box5{
+     flex-wrap: wrap;
+     flex-grow: 2;
+     order: 3000;
+}
