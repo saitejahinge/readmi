@@ -1,0 +1,38 @@
+.container{
+    height: auto;
+    width: auto; 
+    
+    margin: 20px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    color: brown;
+    margin: 20px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.rotate:hover{
+    transform: rotate(50deg);
+    transition: all 2s linear 1s; 
+    
+}
+.scale:hover{
+
+    transform: scale(2);
+     transition: all 2s linear 1s; 
+
+}
+.skew:hover{
+    transform: skew(45deg);
+    transition: all 2s linear 1s; 
+}
+.translate:hover{
+    transform: translate(30px);
+    transition: all 2s linear 1s; 
+
+}
